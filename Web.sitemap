@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/Panel/Default.aspx" title="Anasayfa"  description="Anasayfa">
+		<siteMapNode url="~/Panel/CategoryAdd.aspx" title="Kategori Ekle"  description="Kategori Ekle" />
+		<siteMapNode url="~/Panel/Categories.aspx" title="Kategoriler"  description="Kategoriler" />
+		<siteMapNode url="~/Panel/ContactUs.aspx" title="Bize Ulaşın"  description="Bize Ulaşın" />
+		<siteMapNode url="~/Panel/Library.aspx" title="Kütüphane"  description="Kütüphane" />
+		<siteMapNode url="~/Panel/LibraryAdd.aspx" title="Kütüphaneye Ekle"  description="Kütüphaneye Ekle" />
+		<siteMapNode url="~/Panel/Movies.aspx" title="Filmler"  description="Filmler" />
+		<siteMapNode url="~/Panel/MovieAdd.aspx" title="Film Ekle"  description="Film Ekle" />
+		<siteMapNode url="~/Panel/MovieEdit.aspx" title="Film Düzenle"  description="Film Düzenle" />
+		<siteMapNode url="~/Panel/Cast.aspx" title="Oyuncular"  description="Oyuncular" />
+		<siteMapNode url="~/Panel/CastAdd.aspx" title="Oyuncu Ekle"  description="Oyuncu Ekle" />
+		<siteMapNode url="~/Panel/CastEdit.aspx" title="Oyuncu Düzenle"  description="Oyuncu Düzenle" />
+		<siteMapNode url="~/Panel/Director.aspx" title="Yönetmenler"  description="Yönetmenler" />
+		<siteMapNode url="~/Panel/DirectorAdd.aspx" title="Yönetmen Ekle"  description="Yönetmen Ekle" />
+		<siteMapNode url="~/Panel/DirectorEdit.aspx" title="Yönetmen Düzenle"  description="Yönetmen Düzenle" />
+		<siteMapNode url="~/Panel/Settings.aspx" title="Ayarlar"  description="Ayarlar" />
+	</siteMapNode>
+</siteMap>
