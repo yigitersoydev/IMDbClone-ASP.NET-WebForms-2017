@@ -1,0 +1,127 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Theme_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>NotIMDb</title>
+     <link rel="stylesheet" href="Styles/style.css"/>
+    <link rel="stylesheet" href="Styles/responsive.css"/>
+    <link rel="stylesheet" href="Scripts/flexslider.css"/>
+    <link rel="stylesheet" href="Styles/prettyPhoto.css"/>
+    <link rel="alternate stylesheet" type="text/css" href="Styles/blue.css" title="colorblue" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="Styles/green.css" title="colorgreen" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="Styles/violet.css" title="colorviolet" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="Styles/yellow.css" title="coloryellow" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'/>
+    <!-- favicon -->
+     <link rel="icon" type="image/png" href="/Images/Favicon/Nimdb_fav.png"/>
+    <script src="Scripts/modernizr.js"></script>
+
+  
+</head>
+<body id="body" style="background:-webkit-linear-gradient(top,#b3b3b0 0%, #e3e2dd 500px);background-color:#e3e2dd;background-repeat:no-repeat;">
+    <form id="form1" runat="server">
+       
+<header style="padding-top: 5px">
+        <div id="top_ankor"></div>
+        <!-- top -->
+
+        <!-- top -->
+
+        <!-- Logo and banner -->
+        <div class="logo-section clearfix">
+            <div class="logo">
+                <a href="/Theme/Default.aspx">
+                   <img src="/Images/Logo/Nimdb_logo.png" width="140" /></a>
+            </div>
+
+            <div class="ads" style="display: none">
+                <a href="#">
+                    <img src="images/banner.png" alt="banner"/></a>
+            </div>
+            <div class="ads mobile_ads">
+                <a href="#">
+                    <img src="images/banner_mobile.png" alt="banner"/></a>
+            </div>
+        </div>
+        <!-- Logo and banner -->
+
+        <!-- Main Navigation -->
+        <div class="main-nav" style="border-bottom:5px solid #e6b91e">
+            <nav class="top_menu">
+                <ul>
+                 
+                    <li><a href="/Theme/Default.aspx">Anasayfa</a></li>
+                    <li><a href="/Theme/Categories.aspx">Kategorİler</a></li>
+                    <li><a href="/Theme/Movies.aspx">Fİlmler</a></li>
+                     <li><a href="/Theme/TopRated.aspx">TOP 50</a></li>
+                 
+                </ul>
+            </nav>
+            <div class="responsive_nav_wrap"></div>
+        </div>
+        <!-- Main Navigation -->
+    </header>
+
+
+
+
+        <div class="content" style="margin-top:2%;margin-bottom:2%;box-shadow:0px 0px 10px #444;">
+
+            <asp:ContentPlaceHolder ID="cph_Content" runat="server" />
+
+        </div>
+
+
+    <footer class="footer-bottom">
+     <div class="container clearfix">
+            <div class="widget">
+                 <div class="title_b">HIZLI MENÜ</div>
+                <ul class="f_menu">
+                    <li><a href="/Theme/Default.aspx">Anasayfa</a></li>
+                    <li><a href="/Theme/Categories.aspx">Kategoriler</a></li>
+                    <li><a href="/Theme/Movies.aspx">Filmler</a></li>
+                    <li><a href="/Theme/TopRated.aspx">TOP 50</a></li>
+        
+                </ul>
+            </div>
+           
+         
+        </div>
+    </footer>
+
+
+         <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/jquery.flexslider-min.js"></script>
+    <script src="Scripts/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script src="Scripts/jquery.prettyPhoto.js"></script>
+    <script src="Scripts/jquery.totemticker.js"></script>
+    <script src="Scripts/custom.js"></script>
+    <script type="text/javascript" src="Scripts/switcher.js"></script>
+    <script>$(document).ready(function () {
+    $('.def-carousel.pretty_photo_1 .gp-overlay a').attr("rel", "prettyPhoto[gallery_1]");
+    $("a[rel^='prettyPhoto']").prettyPhoto({ social_tools: false });
+});
+</script>
+        <script>
+
+            $(document.read)
+            var genislik = $(window).width();
+            if (genislik <= 800) {
+                $('#resim_contentfooter').removeClass('col-md-8');
+                $('#resim_contentfooter').addClass('col-md-6');
+            }
+            if (genislik > 800) {
+                $('#resim_contentfooter').removeClass('col-md-6');
+                $('#resim_contentfooter').addClass('col-md-8');
+            }
+        </script>
+
+    </form>
+
+</body>
+</html>

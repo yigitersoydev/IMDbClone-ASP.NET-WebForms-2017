@@ -1,0 +1,94 @@
+/*
+	Author: Sizam Designs
+	Author URI: http://sizam-design.com
+*/
+
+
+/* Colors
+================================================== */
+a { color: #75C000; }
+nav.top_menu > ul > li ul { border-bottom: 2px solid #75C000; }
+nav.top_menu > ul > li ul li a:hover { color: #75C000 }
+.priced_block > a { background-color: #75C000; text-shadow: 0 1px 1px #666; box-shadow: 0 2px 2px #497800 }
+.priced_block > a:after { border-top: 15px solid transparent; border-left: 7px solid #75C000; border-right: 0px transparent; border-bottom: 15px solid transparent; }
+.priced_block > a:hover {background: #84d900; text-decoration:none}
+.priced_block > a:hover:after {border-left: 7px solid #84d900;}
+.priced_block > a:active { background-color: #75C000 !important; top: 2px;}
+.priced_block > a:active:after {border-left: 7px solid #75C000;}
+.main_slider .flex-overlay a.read-more:hover { background-color: #75C000; border: 2px solid #75C000; }
+.main_slider .flex-control-paging li a.flex-active, .main_slider .flex-control-paging li a:hover { background: none repeat scroll 0 0 #75C000; }
+#reviews_tabs > ul > li.current, #reviews_tabs > ul > li:hover { background: #75C000; }
+.tabs-item .right .detail p a { color: #75C000; }
+.btn_more:hover { background-color: #75C000; border: 1px solid #75C000; color: #fff }
+.top_theme h5 strong { background: #75C000; }
+.widget.tabs .current { background: #75C000; }
+.sidebar .tabs-item .detail p a { color: #75C000; }
+.featured_slider .flex-control-paging li a.flex-active, .featured_slider .flex-control-paging li a:hover { background: #75C000; }
+.category_tab h5 a:hover { color: #75C000; }
+.sidebar .widget p a { color: #75C000; }
+.lastcomm-item span b { color: #75C000 }
+.footer-bottom .widget .title_b span { color: #75C000; }
+footer p a { color: #75C000; }
+.small_post .overlay .btn_more:hover { border: 1px solid #75C000 }
+.small_post .btn:hover { border-color: #75C000; background: #75C000; color: #ffffff; }
+.main-side .current, .main-side .wp-pagenavi a:hover { background: none repeat scroll 0 0 #75C000; color: #FFFFFF !important; }
+.blog_carousel .title_blog_carousel a {  color: #75C000; }
+.post .btn:hover { border-color: #75C000; background: #75C000; color: #ffffff; }
+.post_slider .flex-control-nav li a.flex-active, .post_slider .flex-control-nav li a:hover { background: #75C000; }
+.post_slider .caption a { background-color: #75C000 }
+.campare_table table.one td strong.red { color: #75C000; }
+.author_quote { border-top: 3px solid #75C000; }
+.reply { color: #75C000; }
+.best_from_cat_carousel h5 a { color: #75C000; }
+.def-carousel.sec_style_carousel .carousel-next:hover, .def-carousel.sec_style_carousel .carousel-prev:hover { background-color: #75C000; border: 1px solid #75C000 }
+.product_details .price { color: #75C000 !important; }
+.quick_view_btn a:hover { background-color: #75C000 }
+.wps-button.orange, .wps-button.rehub_main_btn { color: #fff; background-color: #75C000 !important; background-image: none !important; border-radius: 3px !important; box-shadow: 0 2px 0 #497800 !important; text-transform: uppercase; }
+.wps-button.orange:hover, .wps-button.rehub_main_btn:hover { background: #84d900 !important; background-position: left bottom !important }
+.wps-button.orange:active, .wps-button.rehub_main_btn:active { background-color: #75C000 !important; top: 2px; box-shadow: none !important }
+.wps_promobox.rehub_promobox { border-left-color: #75C000!important; }
+.custom-checkbox label.checked:before, .custom-radio label.checked:before { border: 1px solid #75C000; }
+.custom-checkbox label.checked:after { background-color: #75C000; }
+.custom-radio label.checked:after { background: #75C000; }
+.wps-members > strong:first-child { background: none repeat scroll 0 0 #75C000; }
+article em.emph { color: #75C000; }
+.heading a { color: #75C000; }
+.related_articles .title_cat_related a { color: #75C000; }
+.commentlist .comment-content small a { color: #75C000; }
+.comment_form h3 a { color: #75C000; text-decoration: underline }
+.wps_promobox { border-left: 3px solid #75C000; }
+.sidebar .featured_slider .link {  color: #75C000;}
+.widget.tabs > ul > li:hover { color: #ffffff; background: #75C000; }
+.news_lettr p a {color: #75C000; }
+.footer-bottom .widget .f_menu li a:hover { color: #75C000; text-decoration: underline; }
+.gallery-pics .gp-overlay {  box-shadow: 0 0 0 4px #75C000 inset; }
+.main-nav { border-bottom: 2px solid #75C000;}
+.sidebar .tabs-item figure, .video_gallery .right figure, .f-post figure{ border-top: 2px solid #75C000;box-sizing: border-box;-moz-box-sizing: border-box; }
+
+html#ecwid_html body#ecwid_body div.ecwid-minicart-counter, html#ecwid_html body#ecwid_body .ecwid-AddressForm-buttonsPanel button.gwt-Button { background-color: #75C000 !important; }
+html#ecwid_html body#ecwid_body div.ecwid-minicart-link * { color: #75C000 !important; }
+html#ecwid_html body#ecwid_body td.ecwid-categories-vertical-table-cell.ecwid-categories-vertical-table-cell-selected span.ecwid-categories-category { background-color: #75C000 !important; color: #fff !important; }
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-categoryPath a, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-categoryPath a:active, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-categoryPath a:visited { color: #111 !important; }
+html#ecwid_html body#ecwid_body .ecwid-productBrowser-subcategories-mainTable tbody tr td:hover > div { border: 1px solid #75C000 !important }
+html#ecwid_html body#ecwid_body .ecwid-productBrowser-subcategories-mainTable tbody tr:nth-child(2) td:hover > div, html#ecwid_html body#ecwid_body .ecwid-productBrowser-subcategories-mainTable tbody tr:nth-child(5) td:hover > div, html#ecwid_html body#ecwid_body .ecwid-productBrowser-subcategories-mainTable tbody tr:nth-child(8) td:hover > div, html#ecwid_html body#ecwid_body .ecwid-productBrowser-subcategories-mainTable tbody tr:nth-child(11) td:hover > div { border: 1px solid #75C000 !important; border-top: none !important; background: #75C000 none !important; color: #fff !important }
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-price { color: #A20505 !important; }
+html#ecwid_html body#ecwid_body div.ecwid-ProductBrowser-auth-anonim a, html#ecwid_html body#ecwid_body div.ecwid-ProductBrowser-auth-logged a, html#ecwid_html body#ecwid_body div.ecwid-pager span.ecwid-pager-link-disabled, html#ecwid_html body#ecwid_body div.ecwid-Invoice-cell-title { background-color: #75C000 !important; }
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart div.ecwid-productBrowser-price { color: #A20505 !important; }
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-totalAmount { color: #A20505 !important; }
+html#ecwid_html body#ecwid_body div.ecwid-Checkout-blockTitle, html#ecwid_html body#ecwid_body table.ecwid-Checkout-blockTitle div.gwt-Label, html#ecwid_html body#ecwid_body table.ecwid-Checkout-blockTitle div.gwt-HTML { color: #444 !important; }
+html#ecwid_html body#ecwid_body div.ecwid-Checkout-BreadCrumbs-link-visited{color: #75C000 !important; }
+html#ecwid_html body#ecwid_body div.ecwid-Checkout-BreadCrumbs-link-current {border-bottom: 3px solid #75C000 !important; color: #75C000 !important;}
+html#ecwid_html body#ecwid_body div.ecwid-Invoice-cell-title {background-color: #75C000  !important; }
+html#ecwid_html body#ecwid_body div.ecwid-Invoice-productPrice{ color: #A20505 !important; }
+html#ecwid_html body#ecwid_body td.ecwid-Invoice-Header-OrderId span, html#ecwid_html body#ecwid_body td.ecwid-Invoice-Header-OrderId-long span, html#ecwid_html body#ecwid_body td.ecwid-Invoice-Header-OrderId-very-long span{ color: #75C000 !important; }
+html#ecwid_html body#ecwid_body div.ecwid-Invoice-Summary-value-price{ color: #A20505  !important; }
+html#ecwid_html body#ecwid_body .ecwid-ProductsList-content div.ecwid-productBrowser-productsGrid-productTopFragment-mouseover, html#ecwid_html body#ecwid_body .ecwid-ProductsList-content div.ecwid-productBrowser-productsGrid-productBottomFragment-mouseover { border: solid 1px #bbb !important; }
+html#ecwid_html body#ecwid_body .ecwid-ProductsList-content div.ecwid-productBrowser-productsGrid-productTopFragment-mouseover { border-bottom: none !important; box-shadow: none !important; }
+html#ecwid_html body#ecwid_body .ecwid-ProductsList-content div.ecwid-productBrowser-productsGrid-productBottomFragment-mouseover { border-top: solid 1px #DDD !important; }
+/*html#ecwid_html body#ecwid_body .ecwid a, html#ecwid_html body#ecwid_body .ecwid a:active, html#ecwid_html body#ecwid_body .ecwid a:visited{ color: #75C000 !important; }*/
+/* *** */
+
+/* buttons */
+
+html#ecwid_html body#ecwid_body div.ecwid-ContinueShoppingButton-up, html#ecwid_html body#ecwid_body div.ecwid-ContinueShoppingButton-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-ContinueShoppingButton-ie6-up, html#ecwid_html body#ecwid_body div.ecwid-ContinueShoppingButton-ie6-up-hovering, html#ecwid_html body#ecwid_body button.ecwid-AccentedButton, html#ecwid_html body#ecwid_body div.ecwid-ContinueShoppingButton-down, html#ecwid_html body#ecwid_body div.ecwid-ContinueShoppingButton-down-hovering, html#ecwid_html body#ecwid_body div.ecwid-ContinueShoppingButton-ie6-down, html#ecwid_html body#ecwid_body div.ecwid-ContinueShoppingButton-ie6-down-hovering, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-up, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-ie6-up, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-ie6-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-down, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-down-hovering, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-ie6-down, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-ie6-down-hovering, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-checkoutButton-up, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-checkoutButton-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-checkoutButton-ie6-up, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-checkoutButton-ie6-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-checkoutButton-down, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-checkoutButton-down-hovering, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-checkoutButton-ie6-down, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-checkoutButton-ie6-down-hovering, html#ecwid_html body#ecwid_body div.ecwid-Checkout-placeOrderButton-up, html#ecwid_html body#ecwid_body div.ecwid-Checkout-placeOrderButton-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-Checkout-placeOrderButton-ie6-up, html#ecwid_html body#ecwid_body div.ecwid-Checkout-placeOrderButton-ie6-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-Checkout-placeOrderButton-down, html#ecwid_html body#ecwid_body div.ecwid-Checkout-placeOrderButton-down-hovering, html#ecwid_html body#ecwid_body div.ecwid-Checkout-placeOrderButton-ie6-down, html#ecwid_html body#ecwid_body div.ecwid-Checkout-placeOrderButton-ie6-down-hovering  { background-color: #2A7B00 !important; box-shadow: 0 2px 0 #325200 !important; border-radius: 3px !important;  -webkit-transition: all 0.4s ease 0s !important; -moz-transition: all 0.4s ease 0s !important; -ms-transition: all 0.4s ease 0s !important; -o-transition: all 0.4s ease 0s !important; transition: all 0.4s ease 0s !important; }
+html#ecwid_html body#ecwid_body div.ecwid-ContinueShoppingButton-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-ContinueShoppingButton-ie6-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-ie6-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-checkoutButton-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-checkoutButton-ie6-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-Checkout-placeOrderButton-up-hovering, html#ecwid_html body#ecwid_body div.ecwid-Checkout-placeOrderButton-ie6-up-hovering, html#ecwid_html body#ecwid_body button.ecwid-AccentedButton:hover { background-color: #3F9214 !important; background-position: left bottom !important }
